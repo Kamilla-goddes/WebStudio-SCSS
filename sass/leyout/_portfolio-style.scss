@@ -1,0 +1,134 @@
+.button-portfolio:hover {
+    color: #f5f4fa;
+    background-color: #2196f3;
+  }
+  .button-portfolio {
+    background-color: #f5f4fa;
+    color: black;
+    line-height: 1.62;
+  }
+  section[id] {
+    background-color: var(--bg-color);
+  }
+  .team-info {
+    background-color: var(--team-title-color);
+  } 
+  .team {
+    color: var(--title-color)
+    
+  }
+  .text-button {
+    line-height: 1.36;
+    width: 696px;
+    height: 120px;
+    color:#fff;
+    
+  }
+  .main-title {
+    font-family: var(--font-family);
+    line-height: 1.87;
+  }
+  
+  .mein-text {
+    color: var(--main-text-color);
+    line-height: 2;
+  }
+
+  .header-portfolio {
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+    padding-left: 40px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ececec;
+  }
+  .button-portfolio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 162%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-top: 94px;
+    height: 38px;
+    background-color: #f5f4fa;
+    color: #212121;;
+    font-family: "Roboto";
+    border-radius: 4px;
+    border: none;
+    padding: 6px 25px;
+    margin-bottom: 50px;
+    
+  }
+  .button-portfolio:hover {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
+  }
+  .portfolio-list {
+    margin-left: 294px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .main-portfolio {
+    width: 1600px;
+    margin: 0 auto;
+  }
+  
+  .carts-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    max-width: 1170px;
+  }
+  
+  .carts-block {
+    flex-basis: calc((100% - 60px) / 3);
+    height: 404px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .carts-block:hover {
+    box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    background: #fff;
+  }
+  .main-title {
+    margin-top: 20px;
+    margin-bottom: 4px;
+    margin-left: 24px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+  }
+  
+  .portfolio-text {
+    margin-left: 24px;
+    font-size: 16px;
+    color: #757575;
+    text-align: left;
+  }
+  .address {
+    font-style: normal;
+  }
+  .footer-portfolio {
+    background-color: var(--bg-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-top: 94px;
+  }
+  .carts-block {
+    border: 1px solid #eee;
+    border-top: none;
+    padding-bottom: 20px;
+  }
+  
+  

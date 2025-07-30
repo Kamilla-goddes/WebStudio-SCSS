@@ -1,0 +1,67 @@
+body {
+  font-family: var(--font-family);
+ }
+ .container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+ }
+ .header {
+  width: 1600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  padding-left: 40px;
+  margin: 0 auto;
+ }
+ .header-pozishen {
+  display: flex;
+  align-items: center;
+ }
+.logo {
+  color:#2196f3;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+}
+
+.span {
+  color:#000;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  margin-right: 93px;
+}
+a:hover {
+  color: #2196f3;
+}
+.menu-list {
+  display: flex;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+}
+.menu {
+  color: var(--title-color);
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+.contacst-list {
+  display: flex;
+  column-gap: 50px;
+  margin-left: auto;
+}
+.menu-link {
+ color: var(--main-text-color);
+ font-family: "Roboto";
+ font-weight: 500;
+ font-size: 14px;
+ letter-spacing: 0.02em;
+}
